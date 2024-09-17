@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.e32abd69.css",
-    "main.js": "/Portfolio/static/js/main.38520d60.js",
-    "static/js/592.53f38dab.chunk.js": "/Portfolio/static/js/592.53f38dab.chunk.js",
-    "static/media/vpn.png": "/Portfolio/static/media/vpn.e05f7daf7b2aada9bc3d.png",
-    "static/media/copeople.png": "/Portfolio/static/media/copeople.d67f7e541d45db45cf45.png",
-    "index.html": "/Portfolio/index.html",
-    "main.e32abd69.css.map": "/Portfolio/static/css/main.e32abd69.css.map",
-    "main.38520d60.js.map": "/Portfolio/static/js/main.38520d60.js.map",
-    "592.53f38dab.chunk.js.map": "/Portfolio/static/js/592.53f38dab.chunk.js.map"
+    "main.css": "/portweb/static/css/main.e32abd69.css",
+    "main.js": "/portweb/static/js/main.59b13fd4.js",
+    "static/js/592.53f38dab.chunk.js": "/portweb/static/js/592.53f38dab.chunk.js",
+    "static/media/vpn.png": "/portweb/static/media/vpn.e05f7daf7b2aada9bc3d.png",
+    "static/media/copeople.png": "/portweb/static/media/copeople.d67f7e541d45db45cf45.png",
+    "index.html": "/portweb/index.html",
+    "main.e32abd69.css.map": "/portweb/static/css/main.e32abd69.css.map",
+    "main.59b13fd4.js.map": "/portweb/static/js/main.59b13fd4.js.map",
+    "592.53f38dab.chunk.js.map": "/portweb/static/js/592.53f38dab.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e32abd69.css",
-    "static/js/main.38520d60.js"
+    "static/js/main.59b13fd4.js"
   ]
 }
