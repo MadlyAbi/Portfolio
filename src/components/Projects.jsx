@@ -1,20 +1,19 @@
-
 import React from "react";
-import vpn from '../assets/vpn.png'
-import copeople from '../assets/copeople.png'
-import Footer from './Footer'
+import vpn from '../assets/vpn.png';
+import copeople from '../assets/copeople.png';
+import Footer from './Footer';
 
 const ProjectCard = ({ image, title, description, git, technologies }) => {
     return (
         <div className="max-w-sm sm:max-w-sm md:max-w-sm bg-gray-900 border border-neutral-100 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-            {title==='Snap Shot' && <a href="#">
-                <img className="w-full rounded-t-lg h-auto object-cover " src={vpn} alt="" />
+            {title === 'Snap Shot' && <a href="https://example.com/snapshot">
+                <img className="w-full rounded-t-lg h-auto object-cover" src={vpn} alt="" />
             </a>}
-            {title==='Co People' && <a href="#">
-                <img className="w-full rounded-t-lg h-auto object-cover " src={copeople} alt="" />
+            {title === 'Co People' && <a href="https://example.com/copeople">
+                <img className="w-full rounded-t-lg h-auto object-cover" src={copeople} alt="" />
             </a>}
             <div className="p-4 sm:p-6">
-                <a href="#">
+                <a href="https://example.com/project">
                     <h5 className="text-2xl sm:text-xl md:text-2xl lg:text-3xl font-bold tracking-tight text-white bg-clip-text text-transparent bg-gradient-to-r from-yellow-200 to-pink-500">{title}</h5>
                 </a>
                 <p className="font-normal text-sm sm:text-base md:text-lg text-gray-300 dark:text-gray-400">{description}</p>
@@ -35,7 +34,7 @@ const ProjectCard = ({ image, title, description, git, technologies }) => {
         </div>
     );
 };
-  
+
 const Projects = () => {
     return (
         <div className="bg-black">
@@ -52,27 +51,26 @@ const Projects = () => {
                     />
                 ))}
             </div>
-            <Footer/>
+            <Footer />
         </div>
     );
-}
-
+};
 
 export const project = [
     {
-        title:'Port Scanner',
-        description:'Developed a custom port scanner for identifying open ports and vulnerabilities, utilizing multithreading for enhanced performance. .',
-        image: {vpn},
-        git:'https://github.com/MadlyAbi/Port-Scanner.git',
-        technologies:['Python']
+        title: 'Port Scanner',
+        description: 'Developed a custom port scanner for identifying open ports and vulnerabilities, utilizing multithreading for enhanced performance.',
+        image: { vpn },
+        git: 'https://github.com/MadlyAbi/Port-Scanner.git',
+        technologies: ['Python']
     },
     {
-        title:'MR Robot',
-        description:'Completed the "Mr Robot" challenge on VulnHub, identifying key vulnerabilities and practicing penetration testing techniques.',
-        image: {copeople},
-        git:"",
-        technologies:[ 'Kali lunix', 'Nmap','Burpsuit']
+        title: 'MR Robot',
+        description: 'Completed the "Mr Robot" challenge on VulnHub, identifying key vulnerabilities and practicing penetration testing techniques.',
+        image: { copeople },
+        git: "https://example.com/mrrobot",
+        technologies: ['Kali Linux', 'Nmap', 'Burp Suite']
     }
-]
+];
 
-export default Projects
+export default Projects;
